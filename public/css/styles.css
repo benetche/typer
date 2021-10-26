@@ -1,0 +1,22 @@
+.centered-header{
+    display: flex;
+    justify-content: center;
+}
+
+.centered-sub{
+    display: flex;
+    justify-content: center;
+}
+.number-words{
+    color: #3c00ff;
+}
+h1{
+    color: rgb(156, 0, 177);
+}
+
+body{
+    font-family: monospace;
+    color: #323232;
+}
+
+
