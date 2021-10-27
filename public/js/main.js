@@ -1,6 +1,10 @@
-var phrase = $(".subtitle").text();
-var numWords = phrase.split(" ").length;
-var number = $("#number-words");
 
-number.text(numWords)
-console.log(number);
+var text_typing = $(".typing-area");
+text_typing.on("input", function(){
+
+    var content = text_typing.val();
+    var wordCounter = content.split(/\S+/).length -1;
+    $("#number-words").text(wordCounter);
+    $("#number-char").text(content.length);
+    
+})
